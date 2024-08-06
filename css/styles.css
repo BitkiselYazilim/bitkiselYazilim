@@ -6,3 +6,7 @@
     --font-family: "Inter Tight", sans-serif;
 }
 
+.container{
+	width: 85%;
+	max-width: 1080px;
+}
