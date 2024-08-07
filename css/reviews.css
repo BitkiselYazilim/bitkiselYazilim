@@ -1,0 +1,14 @@
+.reviews-section-title {
+    color: #141414
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 64px;
+    text-align: left;
+    flex-basis: Width 553px;
+}
+
+.reviews-section-title .span {
+    font-family: Inter Tight;
+    color: #576f35;
+}
+
