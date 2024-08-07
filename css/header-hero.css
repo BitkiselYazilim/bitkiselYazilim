@@ -39,3 +39,7 @@
 .icon-logo{
     fill: #fff;
 }
+
+.header-hero-wrapper{
+    background-color: var(--background);
+}

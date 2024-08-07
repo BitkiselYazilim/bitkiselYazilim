@@ -6,9 +6,6 @@
     --font-family: "Inter Tight", sans-serif;
 }
 
-body{
-	background-color: var(--background);
-}
 
 /* BU GENEL CONTAİNER, SAYFADAKİ ORTAYA HİZALI ALANLAR İÇİN BUNU KULLANMALISINIZ */
 .container{
