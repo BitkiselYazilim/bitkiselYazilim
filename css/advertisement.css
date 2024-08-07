@@ -1,0 +1,37 @@
+.advertisement {
+  height: min-content;
+}
+.advertisement .discount {
+  margin-left: -10px;
+  background: #576f35;
+  width: 808px;
+  height: 86px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+}
+.advertisement .discount,
+.advertisement .title {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.advertisement .container .title {
+  width: 100%;
+  text-transform: uppercase;
+}
+.advertisement .discount {
+  display: block;
+}
+.advertisement .discount {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-radius: 12px;
+}
+.advertisement .description,
+.advertisement .title {
+  width: 100%;
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 5rem;
+  letter-spacing: -0.015em;
+}
