@@ -1,3 +1,41 @@
-.text{
-    font-family: var(--font-family);
+.header-wrapper{
+    display: flex;
+    position: relative;
+}
+
+.hero-part{
+    flex: 1;
+}
+
+.hero-left{
+    background-color: var(--background);
+}
+
+.hero-right{
+    width: 650px;
+    height: 800px;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../img/image-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-nav{
+    position: absolute;
+    top: 32px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-wrapper{
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.icon-logo{
+    fill: #fff;
 }
