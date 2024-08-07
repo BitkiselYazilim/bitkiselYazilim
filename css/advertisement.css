@@ -1,14 +1,26 @@
 .advertisement {
-  height: min-content;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px;
+  width: 1280px;
+  height: 440px;
+  background: #fbfbfb;
+}
+
+.advertisement.title {
+  width: 1080px;
+  height: 240px;
 }
 .advertisement .discount {
-  margin-left: -10px;
-  background: #576f35;
-  width: 808px;
-  height: 86px;
-  gap: 0px;
-  border-radius: 12px 0px 0px 0px;
-  opacity: 0px;
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 1.05263;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
 }
 .advertisement .discount,
 .advertisement .title {
@@ -23,9 +35,10 @@
   display: block;
 }
 .advertisement .discount {
-  background-color: var(--secondary-color);
-  color: #fff;
   border-radius: 12px;
+  width: 808px;
+  height: 86px;
+  background: #576f35;
 }
 .advertisement .description,
 .advertisement .title {
@@ -35,3 +48,4 @@
   line-height: 5rem;
   letter-spacing: -0.015em;
 }
+
