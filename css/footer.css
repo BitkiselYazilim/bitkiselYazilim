@@ -1,0 +1,10 @@
+footer {
+  background-color: #7a3145;
+  min-width: 375px;
+  height: auto;
+  padding: 40px 0px 40px;
+}
+
+.container position-container {
+  background-color: #7a3145;
+}
