@@ -45,6 +45,11 @@
     border-radius: 40px;
     padding: 32px;
     background-color: var(--main-text);
+    transition: transform .3s ease;
+}
+
+.vegetables-list-item:hover{
+    transform: scale(.9);
 }
 
 .product-info-title{
