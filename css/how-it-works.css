@@ -1,3 +1,11 @@
+.how-it-works {
+  background-color: var(--background);
+}
+
+.how-it-works-background {
+  background-color: var(--background);
+}
+
 .how-it-works-left {
   padding: 100px;
   width: 630px;
