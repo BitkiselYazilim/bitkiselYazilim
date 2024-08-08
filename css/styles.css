@@ -1,14 +1,13 @@
 :root {
-	--text: #141414;
-	--background: #576f35;
-	--background-2: #7a3145;
-	--main-text: #fbfbfb;
-    --font-family: "Inter Tight", sans-serif;
+  --text: #141414;
+  --background: #576f35;
+  --background-2: #7a3145;
+  --main-text: #fbfbfb;
+  --font-family: "Inter Tight", sans-serif;
 }
 
-
 /* BU GENEL CONTAİNER, SAYFADAKİ ORTAYA HİZALI ALANLAR İÇİN BUNU KULLANMALISINIZ */
-.container{
-	max-width: 1280px;
-	margin: 0 auto;
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
