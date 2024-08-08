@@ -1,0 +1,126 @@
+.how-it-works-left {
+  padding: 100px;
+  width: 630px;
+  height: 759px;
+  background: var(--background-2);
+}
+
+.how-it-works-img {
+  border-radius: 30px;
+  width: 430px;
+  height: 559px;
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.3),
+      rgba(20, 20, 20, 0.3)
+    ),
+    url("../img/image-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover bottom;
+}
+
+.how-it-works-right {
+  padding: 100px 100px 160px 100px;
+  width: 650px;
+  height: 759px;
+  background: var(--background);
+}
+
+.how-it-works-wrapper {
+  display: flex;
+}
+
+.how-it-works-order-steps {
+  width: 450px;
+  height: 499px;
+}
+.how-it-works-content {
+  width: 450px;
+  height: 181px;
+  margin-bottom: 50px;
+}
+
+.how-it-works-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--main-text);
+  margin-bottom: 25px;
+}
+
+.how-it-works-title > span {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.how-it-works-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--main-text);
+}
+
+.order-steps-list {
+  width: 450px;
+  height: 268px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-steps-list-item {
+  border-radius: 15px;
+  padding: 12px 25px 12px 24px;
+  width: 450px;
+  height: 76px;
+  background: var(--main-text);
+}
+
+.list-item-blocks {
+  width: 401px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.item-number {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(122, 49, 69, 0.3);
+  border-radius: 100%;
+  background-color: #7a3145;
+  fill: var(--background-2);
+  stroke-width: 5px;
+  stroke: rgba(122, 49, 69, 0.3);
+}
+.number-text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: var(--main-text);
+}
+
+.list-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.6);
+}
+.list-text > span {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.order-steps-list-item .item-number {
+  padding-right: 24px;
+}
