@@ -1,5 +1,5 @@
 .advertisement-title{
-    max-width: 1054px;
+    max-width: 1250px;
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 76px;
@@ -7,7 +7,7 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: var(--text);
-    padding: 100px 0;
+    padding: 100px 100px;
 }
 
 .advertisement-title > span {
