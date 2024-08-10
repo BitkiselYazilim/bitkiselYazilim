@@ -2,14 +2,12 @@
   background-color: var(--background);
 }
 
-.how-it-works-background {
-  background-color: var(--background);
+.how-it-works-wrapper {
+  display: flex;
 }
 
 .how-it-works-left {
   padding: 100px;
-  width: 630px;
-  height: 759px;
   background: var(--background-2);
 }
 
@@ -22,29 +20,17 @@
       rgba(20, 20, 20, 0.3)
     ),
     url("../img/image-1.jpg");
-  background-repeat: no-repeat;
   background-position: center;
-  background-size: cover bottom;
 }
 
 .how-it-works-right {
   padding: 100px 100px 160px 100px;
-  width: 650px;
-  height: 759px;
   background: var(--background);
 }
 
-.how-it-works-wrapper {
-  display: flex;
-}
-
 .how-it-works-order-steps {
-  width: 450px;
-  height: 499px;
 }
 .how-it-works-content {
-  width: 450px;
-  height: 181px;
   margin-bottom: 50px;
 }
 
@@ -72,8 +58,6 @@
 }
 
 .order-steps-list {
-  width: 450px;
-  height: 268px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -82,14 +66,10 @@
 .order-steps-list-item {
   border-radius: 15px;
   padding: 12px 25px 12px 24px;
-  width: 450px;
-  height: 76px;
   background: var(--main-text);
 }
 
 .list-item-blocks {
-  width: 401px;
-  height: 52px;
   display: flex;
   align-items: center;
 }
