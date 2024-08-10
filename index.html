@@ -217,81 +217,118 @@
     <!-- ------------------------- REVİEWS ALANI ---------------------- -->
 
     <!-- ------------------------- YOUR ORDER ALANI ------------------- -->
-
-    <!-- ------------------------- FOOTER ALANI ----------------------- -->
-    <footer>
-      <div class="container position-container">
-        <div class="footer-wrap">
-          <div class="first-container">
-            <div class="logo-par-container">
-              <div class="svg-logo-container">
-                <a href="./index.html">
-                  <img
-                    class="logo-svg"
-                    width="194"
-                    height="18"
-                    src="./img/logo-ph.svg"
-                    alt="Green.Harvest"
-                  />
-                  <img
-                    class="logo-tab-des"
-                    width="194"
-                    height="18"
-                    src="./img/logo-tab-des.svg"
-                    alt="Green.Harvest"
-                  />
-                </a>
-              </div>
-              <p class="footer-par">
-                Whether you're looking for a healthy snack or a thoughtful gift,
-                our fruit baskets are the perfect choice.
-              </p>
-            </div>
+    <section class="your-order">
+      <div class="container your-order-container">
+        <div class="title-form-container">
+          <div class="title-wrapper">
+            <h2 class="second-title">Fresh <span class="title-span">Harvest</span> Box has got you covered</h2>
+            <p class="title-text">
+              Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!
+            </p>
           </div>
-          <div class="des-position">
-            <div class="second-container">
-              <div class="section-list-container">
-                <nav class="nav-lists">
-                  <ul class="local-links-list">
-                    <li class="local-links-items">
-                      <a class="anchor" href="#hiv">how it works</a>
-                    </li>
-                    <li class="local-links-items">
-                      <a class="anchor" href="#vegetables">vegetables</a>
-                    </li>
-                    <li class="local-links-items">
-                      <a class="anchor" href="#reviews">reviews</a>
-                    </li>
-                  </ul>
-                </nav>
-
-                <div class="tel-add">
-                  <ul class="tel-address">
-                    <li class="tel-address-items">
-                      <a class="tel-address-link" href="+380684439426"
-                        >+380 (68) 443-94-26</a
-                      >
-                    </li>
-                    <li class="tel-address-items">
-                      <a class="tel-address-link" href=""
-                        >1678 S. Pioneer Road Salt Lake City UT 84104</a
-                      >
-                    </li>
-                  </ul>
+          <div class="form-social-wrapper">
+            <div class="form-window">
+              <p class="form-text">
+                Ordering <span class="form-text-span">from us</span> is quick and easy! Fill out <span class="form-text-second-span">the form</span> below and we will contact you !
+              </p>
+              <form class="form-content">
+                <div class="input-wrapper">
+                  <label for="user-name"></label>
+                  <input
+                  type="text"
+                  id="user-name"
+                  name="user-name"
+                  class="input-content"
+                  placeholder="Full Name"
+                  />
                 </div>
+                <div class="input-wrapper">
+                  <label for="user-mail"></label>
+                  <input
+                  required
+                  type="email"
+                  id="user-mail"
+                  name="user-mail"
+                  class="input-content"
+                  placeholder="Email"
+                  />
+                </div>
+                <div class="input-wrapper">
+                  <label for="user-comment"></label>
+                  <textarea
+                  id="user-comment"
+                  name="user-comment"
+                  class="text-area-input"
+                  placeholder="Comment"
+                  ></textarea>
+                </div>
+                <button
+                type="submit"
+                class="form-btn">Send</button>
+              </form>
+            </div>
+            <div class="social-media-content">
+              <div class="img-content"></div>
+              <p class="social-media-text">
+                Follow us on our social networks:
+              </p>
+              <div class="social-media-wrapper">
+                <a class="social-media-link" href="#">instagram /</a>
+                <a class="social-media-link" href="#">facebook /</a>
+                <a class="social-media-link" href="#">youtube</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="priv-pol-container">
-          <ul class="priv-pol-list">
-            <li class="priv-pol">
-              <a class="down-link set" href="">Privacy Policy</a>
-              <span class="down-link">/</span>
-              <a class="down-link set" href="">Cookie settings</a>
-            </li>
-            <li class="down-link">©Green Harvest 2023</li>
-          </ul>
+      </div>
+    </section>
+    <!-- ------------------------- FOOTER ALANI ----------------------- -->
+    <footer>
+      <div class="container position-container"> 
+        <div class="footer-first-content">
+          <div class="logo-content">
+            <svg class="icon footer-icon" width="168" height="15">
+              <use href="./img/icons.svg#icon-logo"></use>
+            </svg>
+            <p class="logo-text">
+              Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.
+            </p>
+          </div>
+          <div class="nav-content">
+            <nav class="footer-navbar">
+              <ul class="footer-navbar-list">
+                <li class="footer-navbar-list-item">
+                  <a href="" class="nav-bar-list-link">how it works</a>
+                </li>
+                <li class="footer-navbar-list-item">
+                  <a href="" class="nav-bar-list-link">vegetables</a>
+                </li>
+                <li class="footer-navbar-list-item">
+                  <a href="" class="nav-bar-list-link">reviews</a>
+                </li>
+              </ul>
+            </nav>
+            <address class="footer-address">
+              <ul class="footer-address-list">
+                <li class="address-list-item">
+                  <a class="address-list-item-link" href="tel:+380(68)4439426">+380 (68) 443-94-26</a>
+                </li>
+                <li class="address-list-item">
+                  <p class="address-list-item-text">1678 S. Pioneer Road Salt Lake City UT 84104</p>
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
+        <div class="footer-second-content">
+          <div class="privacy-content">
+            <a class="privacy-content-link" href="#">Privacy Policy</a>
+            <p class="privacy-content-link">/</p>
+            <a class="privacy-content-link" href="#">Cookie settings</a>
+          </div>
+          <div class="page-content">
+            <p class="page-content-text">©Green Harvest 2023</p>
+          </div>
         </div>
       </div>
     </footer>
