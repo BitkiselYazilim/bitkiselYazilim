@@ -1,0 +1,36 @@
+.reviews {
+  background: #fbfbfb;
+}
+
+.reviews-content {
+  padding: 100px 627px 50px 100px;
+  margin-bottom: 50px;
+}
+
+.reviews-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 25px;
+}
+
+.reviews-title > span {
+  color: var(--background);
+}
+
+.reviews-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--text);
+}
+
+.customer {
+  display: flex;
+  justify-content: center;
+}

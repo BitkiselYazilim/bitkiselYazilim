@@ -9,6 +9,7 @@
 .how-it-works-left {
   padding: 100px;
   background: var(--background-2);
+  flex-direction: row;
 }
 
 .how-it-works-img {
@@ -21,15 +22,15 @@
     ),
     url("../img/image-1.jpg");
   background-position: center;
+  background-size: cover;
 }
 
 .how-it-works-right {
-  padding: 100px 100px 160px 100px;
+  padding: 100px 100px 100px 100px;
   background: var(--background);
+  width: 650px;
 }
 
-.how-it-works-order-steps {
-}
 .how-it-works-content {
   margin-bottom: 50px;
 }
@@ -63,40 +64,34 @@
   gap: 20px;
 }
 
-.order-steps-list-item {
+.order-list-item {
+  background-color: #fbfbfb;
+  padding: 12px 24px;
   border-radius: 15px;
-  padding: 12px 25px 12px 24px;
-  background: var(--main-text);
-}
-
-.list-item-blocks {
   display: flex;
+  gap: 20px;
   align-items: center;
 }
 
-.item-number {
+.order-list-number {
   width: 52px;
   height: 52px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  border: 5px solid rgba(122, 49, 69, 0.3);
-  border-radius: 100%;
-  background-color: #7a3145;
-  fill: var(--background-2);
-  stroke-width: 5px;
-  stroke: rgba(122, 49, 69, 0.3);
-}
-.number-text {
+  justify-content: center;
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 20px;
   line-height: 100%;
   letter-spacing: -0.02em;
   color: var(--main-text);
+  background-color: var(--background-2);
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 5px solid rgba(211, 152, 168, 0.822);
 }
 
-.list-text {
+.order-steps-text {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -104,11 +99,8 @@
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
 }
-.list-text > span {
+
+.order-steps-text > span {
   font-weight: 700;
   color: var(--text);
-}
-
-.order-steps-list-item .item-number {
-  padding-right: 24px;
 }
