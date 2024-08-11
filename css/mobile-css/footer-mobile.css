@@ -1,0 +1,54 @@
+@media (min-width: 375px) and (max-width: 480px) {
+    /* Mobil cihazlar için stil ayarları burada */
+    .position-container{
+        max-width: 375px;
+        margin:0 auto;
+        padding:40px 20px;
+        gap:80px;
+    }
+    .footer-first-content{
+        display:flex;
+        flex-direction: column;
+        gap:40px;
+    }
+    .logo-text{
+        font-size: 14px;
+        line-height: 129%;
+    }
+    .logo-content{
+        margin:initial;
+        max-width: 296px;
+    }
+    .nav-content{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+    }
+    .footer-nav-list{
+        gap:14px;
+    }
+    .footer-address-list{
+        gap:14px;
+    }
+    .nav-bar-list-link{
+        font-size: 28px;
+    }
+    .address-list-item{
+        font-size: 14px;
+        line-height: 129%;
+    }
+    .footer-second-content{
+        max-width: 335px;
+    }
+    .privacy-content-link,
+    .page-content-text{
+        font-size: 12px;
+        line-height: 133%;
+    }
+    .privacy-content{
+        min-width: 171px;
+    }
+    .page-content{
+        margin-left: 49px;
+    }
+}
