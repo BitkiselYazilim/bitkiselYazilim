@@ -1,131 +1,103 @@
 .reviews {
-    width: 1,280px;
-    height: 701px;
-    top: 3228px;
-    padding: 100px 0px 0px 0px;
-    gap: 50px;
-    opacity: 0px;
-    background: #FBFBFB;
+    background: #fbfbfb;
 }
 
-.reviews-container {
-    width: 553px;
-    height: 193px;
-    gap: 25px;
-    opacity: 0px;
-    padding-left: 100px;
-    padding-bottom: 50px;
+.reviews-content {
+    margin-bottom: 50px;
+    padding-right: 527px;
+}
+
+.reviews-wrapper {
+    padding: 100px;
 }
 
 .reviews-title {
-    width: 553px;
-    height: 128px;
-    gap: 0px;
-    opacity: 0px;
-    
-    font-family: Inter Tight;
-    font-size: 64px;
+    font-family: var(--font-family);
     font-weight: 600;
-    line-height: 64px;
-    letter-spacing: -0.015em;
-    text-align: left;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
     text-transform: uppercase;
+    color: var(--text);
+    margin-bottom: 25px;
 }
 
-.reviews-span {
-    color: #576f35;
+.reviews-title > span {
+    color: var(--background);
 }
 
 .reviews-text {
-    width: 553px;
-    height: 40px;
-    gap: 0px;
-    opacity: 0px;
-
-    font-family: Inter Tight;
-    font-size: 16px;
+    font-family: var(--font-family);
     font-weight: 500;
-    line-height: 20px;
-    text-align: left;
-    padding-top: 25px;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--text);
 }
 
 .customer {
-    width: 1,079px;
-    height: 258px;
-    gap: 25px;
-    opacity: 0px;
-    padding-top: 100px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    gap: 25px;
 }
 
-.customer-container {
-    width: 343px;
-    height: 258px;
-    padding: 20px 0px 0px 0px;
-    gap: 8px;
-    background: #FBFBFB;
-    border-radius: 24px 24px 24px 24px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    border: 1px solid #7A31454D
+.customer-block {
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    border-radius: 24px;
+    padding: 20px;
 }
 
-.customer-wrapper {
-    width: 303px;
-    height: 218px;
-    gap: 24px;
-    opacity: 0px;
-    padding: 20px 20px 20px 20px;
-}
-
-.customer-image {
+.customer-img1 {
+    border-radius: 100px;
     width: 56px;
     height: 56px;
-    gap: 0px;
-    border-radius: 100px 0px 0px 0px;
-    opacity: 0px;
+    background: url("../img/people.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-.customer-name-list {
-    width: 302px;
-    height: 138px;
-    gap: 8px;
-    opacity: 0px;
-    align-items: center;
-    justify-content: center;
-    padding-top: 24px;
+.customer-img2 {
+    border-radius: 100px;
+    width: 56px;
+    height: 56px;
+    background: url("../img/people-1.jpg");
+    background-position: center;
+    background-size: cover;
 }
+
+.customer-img3 {
+    border-radius: 100px;
+    width: 56px;
+    height: 56px;
+    background: url("../img/people-2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.customer-image-wrapper {
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.customer-content {}
 
 .customer-name {
-
-    font-family: Inter Tight;
-    font-size: 18px;
+    font-family: var(--font-family);
     font-weight: 600;
-    line-height: 19.8px;
+    font-size: 18px;
+    line-height: 110%;
     letter-spacing: -0.02em;
     text-align: center;
+    color: var(--text);
+    margin-bottom: 8px;
 }
 
-.customer-list {
-    width: 288px;
-    height: 110px;
-    gap: 0px;
-    opacity: 0px;
-
-    font-family: Inter Tight;
-    font-size: 16px;
+.customer-text {
+    font-family: var(--font-family);
     font-weight: 500;
-    line-height: 22.4px;
+    font-size: 16px;
+    line-height: 140%;
     text-align: center;
+    color: rgba(20, 20, 20, 0.4);
 }
-
-
-
-
-
-
-
-
