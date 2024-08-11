@@ -1,0 +1,47 @@
+@media (min-width: 375px) and (max-width: 480px) {
+  /* Mobil cihazlar için stil ayarları burada */
+  .your-order-container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 80px 20px;
+  }
+  .title-wrapper {
+    max-width: 335px;
+  }
+  .form-window {
+    max-width: 335px;
+    padding: 40px 20px;
+  }
+  .input-content {
+    width: 295px;
+  }
+  .text-area-input {
+    width: 295px;
+  }
+  .form-btn {
+    padding: 16px 129px;
+    width: 295px;
+  }
+  .form-social-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-media-content {
+    min-width: 335px;
+    padding: 40px 20px;
+  }
+  .img-content {
+    max-width: 295px;
+  }
+  .social-media-text {
+    font-size: 14px;
+    line-height: 129%;
+  }
+  .social-media-link {
+    font-size: 24px;
+    line-height: 108%;
+  }
+  .social-media-wrapper {
+    gap: 8px;
+  }
+}

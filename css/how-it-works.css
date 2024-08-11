@@ -9,6 +9,7 @@
 .how-it-works-left {
   padding: 100px;
   background: var(--background-2);
+  flex-direction: row;
 }
 
 .how-it-works-img {
@@ -21,15 +22,14 @@
     ),
     url("../img/image-1.jpg");
   background-position: center;
+  background-size: cover;
 }
 
 .how-it-works-right {
-  padding: 100px 100px 160px 100px;
+  padding: 100px 100px 100px 100px;
   background: var(--background);
+  width: 650px;
 }
-
-/* .how-it-works-order-steps {
-} */
 
 .how-it-works-content {
   margin-bottom: 50px;
