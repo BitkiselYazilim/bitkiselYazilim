@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .how-it-works-wrapper {
+    flex-wrap: wrap;
+  }
+  .how-it-works-left {
+    padding: 100px 64px;
+    max-width: 768px;
+    height: 840px;
+  }
+  .how-it-works-img {
+    width: 100%;
+    max-width: 768px;
+    height: auto;
+    background-size: cover;
+  }
+}

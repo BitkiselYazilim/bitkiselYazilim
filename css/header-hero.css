@@ -93,7 +93,6 @@
 
 .hero-left-wrapper {
   margin-top: 238px;
-  width: 502px;
   height: 562px;
 }
 
@@ -115,6 +114,4 @@
   line-height: 125%;
   color: var(--main-text);
   letter-spacing: 0.02em;
-  width: 472px;
-  height: 80px;
 }

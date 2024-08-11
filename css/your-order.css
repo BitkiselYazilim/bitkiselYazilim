@@ -1,12 +1,15 @@
 .your-order {
   background-color: var(--background-2);
 }
-
+.your-order-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 100px;
+}
 .title-form-container {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding: 100px;
 }
 /* Title styles are here */
 .title-wrapper {
@@ -107,6 +110,7 @@
   border: 1px solid #3cbc81;
 }
 .form-btn {
+  position: relative;
   border-radius: 30px;
   padding: 16px 191px;
   width: 429px;
@@ -119,17 +123,62 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: var(--main-text);
+  border: 2px solid transparent;
   border: none;
   cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.8s ease-in-out;
 }
-.form-btn:hover,
-.form-btn:focus {
-  background-color: rgba(122, 49, 69, 0.8); /* Renk değişikliği */
-  transform: scale(1.1); /* Butonu %10 büyütme */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Gölge ekleme */
-  letter-spacing: 4px; /* Harfler arasındaki boşluğu artırma */
+
+.form-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    270deg,
+    #ff7e5f,
+    #feb47b,
+    #86a8e7,
+    #7f7fd5,
+    #91eae4
+  );
+  transition: transform 0.4s ease-in-out;
+  z-index: -1;
 }
-.form-social-wrapper
+
+.form-btn:hover::before {
+  transform: translateX(-100%);
+}
+
+.form-btn:hover {
+  color: #333;
+  border-color: #ff7e5f; /* Hover durumunda border rengi */
+}
+
+.form-btn:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    270deg,
+    #91eae4,
+    #7f7fd5,
+    #86a8e7,
+    #feb47b,
+    #ff7e5f
+  ); /* Renkli border */
+}
+
 /* Social Media Style are here */
 .social-media-content {
   border-radius: 30px;
@@ -140,7 +189,7 @@
 }
 .img-content {
   border-radius: 15px;
-  width: 427px;
+  max-width: 427px;
   height: 273px;
   background-image: linear-gradient(
       rgba(20, 20, 20, 0.3),
