@@ -3,13 +3,9 @@
   padding: 100px;
 }
 
-.sad {
-  padding: 100px 100px;
-}
-
 .vegetables-header {
-  width: 626px;
   margin-bottom: 50px;
+  max-width: 626px;
 }
 
 .vegetables-title {
