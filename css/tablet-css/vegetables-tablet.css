@@ -11,4 +11,7 @@
   .vegetables-list {
     max-width: 704px;
   }
+  .vegetables-pad {
+    padding: 0px;
+  }
 }

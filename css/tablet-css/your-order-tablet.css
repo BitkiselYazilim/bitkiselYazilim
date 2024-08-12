@@ -1,27 +1,39 @@
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .container {
     max-width: 768px;
   }
 
   .title-wrapper {
+    padding: 0px 96px 0px 32px;
+    width: 768px;
+    height: auto;
   }
 
   .title-form-container {
     width: 628px;
+    display: contents;
   }
   .fsw-tablet {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 25px;
+    align-items: center;
   }
   .form-window {
     max-width: 628px;
   }
+
+  .form-social-wrapper {
+  }
   .social-media-content {
     max-width: 628px;
+    padding: 50px 100px;
   }
   .img-content {
     max-width: 528px;
+  }
+  .your-order-container {
+    padding: 100px 0px;
   }
 }
