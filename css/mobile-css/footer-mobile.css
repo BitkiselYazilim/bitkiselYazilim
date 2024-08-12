@@ -41,7 +41,11 @@
     line-height: 129%;
   }
   .footer-second-content {
-    max-width: 335px;
+    max-width: initial;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-top: 80px;
   }
   .privacy-content-link,
   .page-content-text {
@@ -52,6 +56,11 @@
     min-width: 171px;
   }
   .page-content {
-    margin-left: 49px;
+    margin-left: initial;
+  }
+  
+
+  .footer-first-content{
+    width: initial
   }
 }

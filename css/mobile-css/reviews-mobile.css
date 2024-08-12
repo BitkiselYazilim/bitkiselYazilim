@@ -16,4 +16,7 @@
     font-size: 14px;
     line-height: 129%;
   }
+  .customer-block:nth-child(2){
+    display: none;
+  }
 }
