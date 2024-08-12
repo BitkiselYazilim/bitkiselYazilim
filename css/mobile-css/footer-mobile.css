@@ -13,6 +13,8 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    width: initial;
+    padding-right: 59px;
   }
   .logo-text {
     font-size: 14px;
@@ -58,9 +60,8 @@
   .page-content {
     margin-left: initial;
   }
-  
 
-  .footer-first-content{
-    width: initial
+  .address-list-item-text {
+    padding-right: 56px;
   }
 }
