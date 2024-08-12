@@ -2,4 +2,18 @@
   .container {
     width: 375px;
   }
+  .reviews-content {
+    width: 335px;
+  }
+  .reviews-title {
+    font-size: 48px;
+    line-height: 104%;
+  }
+  .reviews-wrapper {
+    padding: 80px 20px;
+  }
+  .reviews-text {
+    font-size: 14px;
+    line-height: 129%;
+  }
 }

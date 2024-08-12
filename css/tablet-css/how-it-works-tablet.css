@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width:1024px) {
+@media (max-width: 1024px) {
   .container {
     width: 768px;
   }
@@ -21,5 +21,18 @@
   }
   .how-it-works-order-steps {
     width: 450px;
+  }
+  .how-it-works-title {
+    font-size: 28px;
+  }
+  .how-it-works-text {
+    font-size: 14px;
+    line-height: 129%;
+  }
+  .how-it-works-content {
+    width: 335px;
+  }
+  .how-it-works-order-steps {
+    width: 335px;
   }
 }

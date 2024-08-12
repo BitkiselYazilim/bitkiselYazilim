@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .container {
     width: 768px;
   }
@@ -6,11 +6,11 @@
     display: none;
   }
 
-  .header-nav{
+  .header-nav {
     padding: 0 32px;
   }
 
-  .hamburger-menu{
+  .hamburger-menu {
     display: block;
   }
 
@@ -29,30 +29,28 @@
   .hero-left-wrapper {
     margin-top: 122px;
     width: 672px;
-
   }
-  .hero-right {    
-width: 768px;
-height: 902px;
+  .hero-right {
+    width: 768px;
+    height: 902px;
   }
-
 
   /* HAMBURGER MENU ALANI */
 
-  .menu-open{
+  .menu-open {
     display: block;
   }
 
-  .hamburger-back{
+  .hamburger-back {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(20,20,20,.4);
+    background-color: rgba(20, 20, 20, 0.4);
   }
 
-  .hamburger-overlay{
+  .hamburger-overlay {
     position: absolute;
     right: 0;
     background-color: var(--background-2);
@@ -60,16 +58,15 @@ height: 902px;
     height: 100%;
   }
 
-  .menu-close{
+  .menu-close {
     position: absolute;
     top: 32px;
     right: 32px;
     background-color: transparent;
     border: none;
-
   }
 
-  .nav-list{
+  .nav-list {
     flex-direction: column;
     position: absolute;
     top: 50%;
@@ -77,11 +74,11 @@ height: 902px;
     transform: translate(-50%, -50%);
   }
 
-  .nav-list-item{
+  .nav-list-item {
     justify-content: center;
   }
 
-  .shop-button{
+  .shop-button {
     position: absolute;
     width: 158px;
     bottom: 33px;

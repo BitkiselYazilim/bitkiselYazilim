@@ -2,4 +2,18 @@
   .container {
     width: 375px;
   }
+  .vegetables-pad {
+    padding: 80px 20px;
+  }
+  .vegetables-header {
+    width: 335px;
+  }
+  .vegetables-title {
+    font-size: 48px;
+    line-height: 104%;
+  }
+  .vegetables-text {
+    font-size: 14px;
+    line-height: 129%;
+  }
 }
