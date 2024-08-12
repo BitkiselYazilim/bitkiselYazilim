@@ -62,6 +62,41 @@ height: 902px;
 
   .menu-close{
     position: absolute;
-    right: 0;
+    top: 32px;
+    right: 32px;
+    background-color: transparent;
+    border: none;
+
+  }
+
+  .nav-list{
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .nav-list-item{
+    justify-content: center;
+  }
+
+  .shop-button{
+    position: absolute;
+    width: 158px;
+    bottom: 33px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 30px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--background-2);
   }
 }
