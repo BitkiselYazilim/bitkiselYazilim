@@ -2,7 +2,7 @@ footer {
   background-color: var(--background-2);
 }
 
-.footer-container{
+.footer-container {
   padding: 50px 100px;
 }
 
@@ -28,7 +28,6 @@ footer {
 }
 
 .nav-content {
-  display: flex;
   gap: 121px;
 }
 
@@ -67,7 +66,6 @@ footer {
 }
 
 .footer-second-content {
-  display: flex;
   /* max-width: 1080px; */
 }
 
