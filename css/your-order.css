@@ -10,7 +10,8 @@
 }
 /* Title styles are here */
 .title-wrapper {
-  max-width: 751px;
+  width: 751px;
+  height: 193px;
 }
 .second-title {
   font-family: var(--font-family);
@@ -34,6 +35,7 @@
 }
 /* Form styles are here  */
 .form-social-wrapper {
+  max-width: 1080px;
   display: flex;
   gap: 24px;
 }
