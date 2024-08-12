@@ -27,4 +27,7 @@
     width: 375px;
     height: 370px;
   }
+  .hamburger-overlay {
+    width: 100%;
+  }
 }
