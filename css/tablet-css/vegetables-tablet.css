@@ -2,9 +2,6 @@
   .container {
     width: 768px;
   }
-  .vegetables {
-    padding: 100px 32px;
-  }
   .vegetables-title {
     margin-bottom: 50px;
   }
@@ -12,6 +9,6 @@
     max-width: 704px;
   }
   .vegetables-pad {
-    padding: 0px;
+    padding: 100px 32px;
   }
 }
