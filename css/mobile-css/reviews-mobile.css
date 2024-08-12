@@ -16,4 +16,10 @@
     font-size: 14px;
     line-height: 129%;
   }
+  .customer {
+    display: contents;
+  }
+  .customer-block {
+    margin-bottom: 20px;
+  }
 }
