@@ -9,7 +9,6 @@
 .how-it-works-left {
   padding: 100px;
   background: var(--background-2);
-  flex-direction: row;
 }
 
 .how-it-works-img {
