@@ -8,8 +8,8 @@
 }
 
 .vegetables-header {
-  width: 626px;
   margin-bottom: 50px;
+  max-width: 626px;
 }
 
 .vegetables-title {

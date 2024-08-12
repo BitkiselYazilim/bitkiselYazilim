@@ -1,3 +1,11 @@
+.on-off-button{
+  display: none;
+}
+
+.menu-open{
+  display: none;
+}
+
 .header-wrapper {
   display: flex;
   position: relative;
@@ -6,7 +14,7 @@
 .hero-left {
   background-color: var(--background);
   width: 630px;
-  height: 800px;
+  height: 700px;
   padding-left: 100px;
 }
 
@@ -45,6 +53,10 @@
 .nav-list {
   display: flex;
   gap: 8px;
+}
+
+.hamburger-menu{
+  display: none;
 }
 
 .icon-logo {
@@ -94,6 +106,7 @@
 .hero-left-wrapper {
   margin-top: 238px;
   height: 562px;
+  margin-right: 38px;
 }
 
 .hero-title {

@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
   .how-it-works-wrapper {
     flex-wrap: wrap;
   }
@@ -8,9 +11,18 @@
     height: 840px;
   }
   .how-it-works-img {
-    width: 100%;
-    max-width: 768px;
-    height: auto;
-    background-size: cover;
+    min-width: 640px;
+  }
+
+  .how-it-works-left {
+    padding: 100px 64px;
+    width: 768px;
+    height: 840px;
+  }
+
+  .how-it-works-right {
+    padding: 100px 159px;
+    width: 768px;
+    height: 699px;
   }
 }
