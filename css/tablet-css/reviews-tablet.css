@@ -6,7 +6,10 @@
     margin-bottom: 50px;
   }
 
-  .customer-block:nth-child(3){
+  .customer-block:nth-child(3) {
     display: none;
+  }
+  .reviews-wrapper {
+    padding: 100px 32px;
   }
 }
