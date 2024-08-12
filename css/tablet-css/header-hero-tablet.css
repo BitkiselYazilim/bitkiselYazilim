@@ -1,10 +1,19 @@
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .container {
     width: 768px;
   }
   .nav-wrapper {
     display: none;
   }
+
+  .header-nav{
+    padding: 0 32px;
+  }
+
+  .hamburger-menu{
+    display: block;
+  }
+
   .header-wrapper {
     display: flex;
     flex-direction: column;
@@ -26,5 +35,33 @@
 width: 768px;
 height: 902px;
   }
+
+
+  /* HAMBURGER MENU ALANI */
+
+  .menu-open{
+    display: block;
+  }
+
+  .hamburger-back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(20,20,20,.4);
+  }
+
+  .hamburger-overlay{
+    position: absolute;
+    right: 0;
+    background-color: var(--background-2);
+    width: 40%;
+    height: 100%;
+  }
+
+  .menu-close{
+    position: absolute;
+    right: 0;
   }
 }

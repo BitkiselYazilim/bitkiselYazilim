@@ -1,6 +1,9 @@
+.your-order-container{
+  padding:100px;
+}
+
 .your-order {
   background-color: var(--background-2);
-  padding: 100px;
 }
 /*  */
 .title-form-container {

@@ -1,3 +1,11 @@
+.on-off-button{
+  display: none;
+}
+
+.menu-open{
+  display: none;
+}
+
 .header-wrapper {
   display: flex;
   position: relative;
@@ -47,6 +55,10 @@
   gap: 8px;
 }
 
+.hamburger-menu{
+  display: none;
+}
+
 .icon-logo {
   fill: #fff;
 }
@@ -94,6 +106,7 @@
 .hero-left-wrapper {
   margin-top: 238px;
   height: 562px;
+  margin-right: 38px;
 }
 
 .hero-title {

@@ -1,5 +1,8 @@
 footer {
   background-color: var(--background-2);
+}
+
+.footer-container{
   padding: 50px 100px;
 }
 
