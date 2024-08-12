@@ -75,6 +75,11 @@
   align-items: center;
 }
 
+.nav-list-item:hover{
+  backdrop-filter: blur(10px);
+}
+
+
 .nav-list-link {
   font-family: var(--font-family);
   font-weight: 500;
