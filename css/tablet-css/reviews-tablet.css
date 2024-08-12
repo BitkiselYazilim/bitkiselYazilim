@@ -5,4 +5,8 @@
   .reviews-content {
     margin-bottom: 50px;
   }
+
+  .customer-block:nth-child(3){
+    display: none;
+  }
 }
