@@ -1,4 +1,7 @@
-@media (max-width: 375px) {
+@media (max-width: 767px) {
+  .container {
+    width: 375px;
+  }
   /* Mobil cihazlar için stil ayarları burada */
   .your-order-container {
     max-width: 375px;
