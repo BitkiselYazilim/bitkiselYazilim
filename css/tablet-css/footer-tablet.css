@@ -3,13 +3,13 @@
     width: 768px;
   }
   .footer {
-    padding: 32px;
   }
   .nav-content {
     flex-wrap: wrap;
     gap: 64px;
   }
   .footer-first-content {
+    padding: 32px;
     width: 704px;
     height: 295px;
   }
@@ -18,5 +18,9 @@
   }
   .footer-second-content {
     width: 704px;
+    height: 32px;
+  }
+  .page-content {
+    margin-left: 283px;
   }
 }
