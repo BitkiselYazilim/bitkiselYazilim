@@ -1,4 +1,4 @@
-/* @media 
+@media (max-width: 375px) {
   /* Mobil cihazlar için stil ayarları burada */
   .your-order-container {
     max-width: 375px;
@@ -44,4 +44,4 @@
   .social-media-wrapper {
     gap: 8px;
   }
-} */
+}

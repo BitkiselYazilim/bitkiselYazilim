@@ -5,6 +5,7 @@ footer {
 
 .footer-first-content {
   display: flex;
+  gap: 302px;
   margin-bottom: 125px;
 }
 

@@ -12,17 +12,14 @@
   }
   .how-it-works-img {
     min-width: 640px;
-  }
-
-  .how-it-works-left {
-    padding: 100px 64px;
-    width: 768px;
-    height: 840px;
+    background-position: center right;
   }
 
   .how-it-works-right {
     padding: 100px 159px;
-    width: 768px;
     height: 699px;
+  }
+  .how-it-works-order-steps {
+    width: 450px;
   }
 }
