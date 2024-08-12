@@ -16,10 +16,7 @@
     font-size: 14px;
     line-height: 129%;
   }
-  .customer {
-    display: contents;
-  }
-  .customer-block {
-    margin-bottom: 20px;
+  .customer-block:nth-child(2) {
+    display: none;
   }
 }
