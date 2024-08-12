@@ -1,9 +1,9 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 768px) {
   .container {
     max-width: 768px;
     margin: 0 auto;
-    padding: 100px 70px;
   }
+
   .form-social-wrapper {
     display: flex;
     flex-direction: column;
@@ -12,7 +12,6 @@
   }
   .form-window {
     max-width: 628px;
-    padding: 50px 100px;
   }
   .social-media-content {
     max-width: 628px;

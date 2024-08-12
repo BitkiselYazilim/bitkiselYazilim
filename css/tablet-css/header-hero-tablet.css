@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .nav-wrapper {
+    display: none;
+  }
+  .header-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-title {
+    margin-bottom: 25px;
+  }
+  .hero-left {
+    margin-bottom: 25px;
+    padding: 32px;
+    height: 485px;
+  }
+  .hero-left-wrapper {
+    margin-top: 122px;
+    width: 672px;
+
+  }
+  .hero-right {    
+width: 768px;
+height: 902px;
+  }
+  }
+}
