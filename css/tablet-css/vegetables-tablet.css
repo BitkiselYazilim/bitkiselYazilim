@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .vegetables {
+    padding: 100px 32px;
+  }
+  .vegetables-title {
+    margin-bottom: 50px;
+  }
+  .vegetables-list {
+    max-width: 704px;
+  }
+}
